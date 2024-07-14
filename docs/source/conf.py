@@ -12,6 +12,7 @@ import sys
 # sys.path.insert(0, os.path.abspath('../../paqueteoptimizacion_isabella'))
 sys.path.insert(0, os.path.abspath("."))
 sys.path.insert(0, os.path.abspath("../"))
+sys.path.insert(0, os.path.abspath("../../paqueteoptimizacion_isabella/"))
 
 
 # sys.path.append(os.path.abspath('src'))
@@ -27,11 +28,18 @@ release = '1.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.autosummary',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.napoleon",
 ]
+
+
+# source_suffix = ['.rst', '.md']
+source_suffix = ".rst"
+
+# The master toctree document.
+master_doc = "index"
 
 # templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
