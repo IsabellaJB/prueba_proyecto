@@ -15,12 +15,12 @@ Bienvenidos a mi Paquete de Optimizacion - Isabella Jimenez Bravo!
    pages/paqueteoptimizacion_isabella.FuncionesPrueba
    pages/paqueteoptimizacion_isabella.FuncionesUnaVariable
 
-.. Indices and tables
-.. ==================
+Indices and tables
+==================
 
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
 
 Introducción
